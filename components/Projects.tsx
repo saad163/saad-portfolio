@@ -69,9 +69,9 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, i
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.1 }}
-      className="group bg-surface rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 border border-slate-100 flex flex-col h-full"
+      className="group bg-surface rounded-2xl overflow-hidden shadow-soft hover:shadow-hover transition-all duration-300 border border-slate-100 flex flex-col h-full w-full"
     >
-      <div className="h-52 overflow-hidden relative">
+      <div className="w-full aspect-video overflow-hidden relative">
         <img
           src={project.imageUrl}
           alt={project.title}
@@ -146,7 +146,7 @@ const Projects: React.FC = () => {
           <div className="w-16 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {projectData.map((project, index) => (
             <ProjectCard key={index} project={project} index={index} />
           ))}

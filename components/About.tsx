@@ -95,7 +95,7 @@ const EducationCard: React.FC<{ edu: typeof educationData[0]; index: number }> =
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-white p-8 rounded-2xl shadow-soft border border-slate-50 flex flex-col md:flex-row gap-6 items-start"
+      className="bg-white p-8 rounded-2xl shadow-soft border border-slate-50 flex flex-col md:flex-row gap-6 items-center md:items-start text-center md:text-left"
     >
       <div className="w-16 h-16 bg-blue-50 text-primary rounded-full flex items-center justify-center flex-shrink-0">
         <GraduationCap size={32} />
@@ -129,7 +129,7 @@ const About: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="w-full lg:w-1/2 relative max-w-md lg:max-w-none"
+            className="w-full lg:w-1/2 relative max-w-sm lg:max-w-none"
           >
             <div className="relative rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden shadow-hover z-10 aspect-[4/5] border-4 sm:border-8 border-white">
               <img
@@ -140,12 +140,12 @@ const About: React.FC = () => {
 
               <div className="absolute bottom-4 left-4 right-4 sm:bottom-8 sm:left-8 sm:right-8 bg-white/90 backdrop-blur-md p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-soft border border-slate-100">
                 <div className="flex items-center justify-between">
-                  <div>
+                  <div className="text-left">
                     <p className="text-[8px] sm:text-[10px] font-bold text-muted uppercase tracking-widest mb-1">Current Role</p>
-                    <p className="text-base sm:text-lg font-heading font-bold text-text">Software Engineer</p>
-                    <p className="text-xs sm:text-sm text-primary font-semibold">at Blue Cascade</p>
+                    <p className="text-sm sm:text-lg font-heading font-bold text-text">Software Engineer</p>
+                    <p className="text-[10px] sm:text-sm text-primary font-semibold">at Blue Cascade</p>
                   </div>
-                  <div className="bg-primary text-white p-2 sm:p-3 rounded-full shadow-soft">
+                  <div className="bg-primary text-white p-2 sm:p-3 rounded-full shadow-soft flex-shrink-0">
                     <User size={20} className="sm:w-6 sm:h-6" />
                   </div>
                 </div>
@@ -203,7 +203,7 @@ const About: React.FC = () => {
             <div className="w-12 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8 justify-items-center">
             {skillCategories.map((category, index) => (
               <SkillCard key={index} category={category} index={index} />
             ))}

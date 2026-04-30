@@ -62,9 +62,9 @@ const Contact: React.FC = () => {
               I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
             </p>
             <div className="flex justify-center space-x-6 relative z-10">
-              <a href="https://github.com/saad163" className="p-4 bg-slate-50 rounded-xl hover:bg-primary hover:text-white transition-all text-muted shadow-sm hover:shadow-hover"><Github size={24} /></a>
-              <a href="https://www.linkedin.com/in/muhammad-saad-hasan-7228b2377/" className="p-4 bg-slate-50 rounded-xl hover:bg-primary hover:text-white transition-all text-muted shadow-sm hover:shadow-hover"><Linkedin size={24} /></a>
-              <a href="https://www.instagram.com/saad.here9/" className="p-4 bg-slate-50 rounded-xl hover:bg-primary hover:text-white transition-all text-muted shadow-sm hover:shadow-hover"><Instagram size={24} /></a>
+              <a href="https://github.com/saad163" target="_blank" rel="noopener noreferrer" className="p-4 bg-slate-50 rounded-xl hover:bg-primary hover:text-white transition-all text-muted shadow-sm hover:shadow-hover"><Github size={24} /></a>
+              <a href="https://www.linkedin.com/in/muhammad-saad-hasan-7228b2377/" target="_blank" rel="noopener noreferrer" className="p-4 bg-slate-50 rounded-xl hover:bg-primary hover:text-white transition-all text-muted shadow-sm hover:shadow-hover"><Linkedin size={24} /></a>
+              <a href="https://www.instagram.com/saad.here9/" target="_blank" rel="noopener noreferrer" className="p-4 bg-slate-50 rounded-xl hover:bg-primary hover:text-white transition-all text-muted shadow-sm hover:shadow-hover"><Instagram size={24} /></a>
             </div>
           </div>
         </div>

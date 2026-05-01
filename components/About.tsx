@@ -120,7 +120,7 @@ const EducationCard: React.FC<{ edu: typeof educationData[0]; index: number }> =
 const About: React.FC = () => {
   return (
     <section id="about" className="py-20 sm:py-32 bg-background relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 relative z-10">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 relative z-10">
 
         {/* Bio Section */}
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mb-20 sm:mb-32">
@@ -178,7 +178,7 @@ const About: React.FC = () => {
             </p>
 
             <p className="text-muted text-sm sm:text-base leading-relaxed mb-10">
-              With over 2 years of professional experience, I have mastered the art of <strong>Laravel Development</strong> and <strong>Django Development</strong> for scalable backends, while excelling as a <strong>React Developer</strong> for modern frontends. My expertise extends to <strong>Shopify API Integration</strong>, REST API development, and creating intelligent solutions using Python tools.
+              With over 1 year of professional experience, I have mastered the art of <strong>Laravel Development</strong> and <strong>Django Development</strong> for scalable backends, while excelling as a <strong>React Developer</strong> for modern frontends. My expertise extends to <strong>Shopify API Integration</strong>, REST API development, and creating intelligent solutions using Python tools.
             </p>
 
             {/* Stats Grid */}
@@ -188,8 +188,8 @@ const About: React.FC = () => {
                 <p className="text-[10px] sm:text-xs text-muted uppercase font-bold tracking-widest">Live Projects</p>
               </div>
               <div>
-                <h4 className="text-3xl sm:text-4xl font-bold text-primary mb-1">2+</h4>
-                <p className="text-[10px] sm:text-xs text-muted uppercase font-bold tracking-widest">Years Exp.</p>
+                <h4 className="text-3xl sm:text-4xl font-bold text-primary mb-1">1+</h4>
+                <p className="text-[10px] sm:text-xs text-muted uppercase font-bold tracking-widest">Year Exp.</p>
               </div>
             </div>
           </motion.div>
@@ -203,7 +203,7 @@ const About: React.FC = () => {
             <div className="w-12 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8 justify-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8 justify-items-center">
             {skillCategories.map((category, index) => (
               <SkillCard key={index} category={category} index={index} />
             ))}
@@ -211,7 +211,7 @@ const About: React.FC = () => {
         </div>
 
         {/* Education History */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12 sm:mb-16">
              <div className="inline-flex items-center justify-center p-3 bg-blue-50 text-primary rounded-2xl mb-6">
                 <GraduationCap size={32} />

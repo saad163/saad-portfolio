@@ -33,7 +33,7 @@ const experiences: ExperienceType[] = [
 const Experience: React.FC = () => {
   return (
     <section id="experience" className="py-24 bg-background relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 relative z-10">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -45,7 +45,7 @@ const Experience: React.FC = () => {
           <div className="w-12 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           {experiences.map((exp, index) => (
             <div key={index} className="relative pl-8 md:pl-0 mb-12 md:mb-16 group last:mb-0">
 

@@ -134,7 +134,7 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, i
 const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-24 bg-background">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -146,7 +146,7 @@ const Projects: React.FC = () => {
           <div className="w-16 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 justify-items-center">
           {projectData.map((project, index) => (
             <ProjectCard key={index} project={project} index={index} />
           ))}

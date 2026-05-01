@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div className="absolute top-0 right-0 w-1/3 h-full bg-primary/5 skew-x-12 transform origin-top-right translate-x-20"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-100/30 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 relative z-10 flex flex-col-reverse md:flex-row items-center gap-12 md:gap-8">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 relative z-10 flex flex-col-reverse md:flex-row items-center gap-12 md:gap-[180px]">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
 
 
             <a 
-              href="/Saad-CV.pdf" 
+              href="/Saad-Hasan-CV.pdf" 
               download="Saad-Hasan-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center relative"
         >
-          <div className="relative w-full max-w-[280px] sm:max-w-sm lg:max-w-md aspect-square">
+          <div className="relative w-full max-w-[320px] sm:max-w-sm lg:max-w-md aspect-square">
             <div className="absolute inset-0 border border-slate-200 rounded-full animate-spin-slow" style={{ animationDuration: '25s' }}></div>
             <div className="absolute inset-8 border border-slate-100 rounded-full animate-spin-slow" style={{ animationDirection: 'reverse', animationDuration: '20s' }}></div>
             <div className="absolute inset-0 rounded-[2rem] overflow-hidden border-4 sm:border-8 border-white shadow-hover bg-slate-100 transform rotate-3 hover:rotate-0 transition-transform duration-500">
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             </div>
             {/* Experience Badge */}
             <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white p-4 sm:p-6 rounded-2xl shadow-hover border border-slate-50 z-20">
-              <div className="text-primary text-2xl sm:text-3xl font-bold">2+</div>
+              <div className="text-primary text-2xl sm:text-3xl font-bold">1+</div>
               <div className="text-muted text-[10px] sm:text-xs font-bold uppercase tracking-wider">Years of Exp.</div>
             </div>
           </div>

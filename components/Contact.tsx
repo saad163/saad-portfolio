@@ -4,14 +4,14 @@ import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Instagram } from 'lucid
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-24 bg-background text-text">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16">
         <div className="text-center mb-16">
           <span className="text-primary font-bold text-sm uppercase tracking-widest">Get In Touch</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold mt-3 text-text">Let's Connect</h2>
           <div className="w-12 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           {/* Contact Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-surface p-10 rounded-2xl shadow-soft border border-slate-50 text-center flex flex-col items-center group hover:shadow-hover transition-all duration-300">

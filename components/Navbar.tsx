@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-background/80 backdrop-blur-md shadow-soft py-4 border-b border-slate-100' : 'bg-transparent py-6'}`}>
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 flex justify-between items-center">
         <a href="#" className="text-2xl font-heading font-bold text-text tracking-tight group">
           SAAD<span className="text-primary group-hover:text-secondary transition-colors">.DEV</span>
         </a>

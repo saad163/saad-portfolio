@@ -8,7 +8,7 @@ const projectData: Project[] = [
     title: "Color Lab Tool | Color Picker & Image Color Extractor",
     description: "A web-based tool that allows developers and designers to pick colors, generate HEX/RGB codes, copy them instantly, and extract color palettes from images. It also supports custom color generation.",
     techStack: ["React", "Tailwind CSS", "JavaScript"],
-    imageUrl: "/images/project-6.png",
+    imageUrl: "/images/colorlab-thumb.png",
     githubLink: "https://github.com/saad163",
     liveLink: "https://colorlab-by-saad.netlify.app/"
   },
@@ -16,16 +16,24 @@ const projectData: Project[] = [
     title: "Zamane Watch Store | Full Stack eCommerce Application",
     description: "Built a full stack eCommerce application using React frontend and Laravel backend with product management and responsive UI",
     techStack: ["React", "Laravel", "MySQL", "Tailwind CSS"],
-    imageUrl: "/images/project-1.png", // Reusing existing image paths if possible, or just keeping the structure
+    imageUrl: "/images/zamane-thumb.png", // Reusing existing image paths if possible, or just keeping the structure
     githubLink: "https://github.com/saad163",
     liveLink: "https://zamane-watch-store.netlify.app/"
+  },
+  {
+    title: "CodeNova Studio | Agency Portfolio & Client Projects Platform",
+    description: "Developed a modern agency portfolio platform showcasing client-based web development projects, services, and case studies. Built with a focus on clean UI, responsive design, and scalable full-stack architecture for real-world business solutions.",
+    techStack: ["React", "Laravel", "Node.js", "Tailwind CSS", "MySQL"],
+    imageUrl: "/images/codenova-thumb.png",
+    githubLink: "https://github.com/saad163/codenova-studio",
+    liveLink: "https://codenova-studio.netlify.app/"
   },
   {
     title: "BloodLink – AI Blood Donation",
     description: "A comprehensive donation system featuring donor matching, email/WhatsApp alerts, map integration, and an AI-powered recommendation engine with a custom chatbot.",
     techStack: ["Django", "Python", "MySQL", "AI/ML", "Google Maps API"],
     imageUrl: "/images/project-1.png",
-    githubLink: "https://github.com/saad163",
+    githubLink: "https://github.com/saad163/bloodlink",
     liveLink: "#"
   },
   {

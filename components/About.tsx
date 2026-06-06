@@ -133,7 +133,7 @@ const About: React.FC = () => {
           >
             <div className="relative rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden shadow-hover z-10 aspect-[4/5] border-4 sm:border-8 border-white">
               <img
-                src="/images/saad (2).jpg"
+                src="/images/Gemini_Generated_Image_8hoire8hoire8hoi.png"
                 alt="Muhammad Saad Hasan"
                 className="w-full h-full object-cover"
               />
@@ -178,7 +178,7 @@ const About: React.FC = () => {
             </p>
 
             <p className="text-muted text-sm sm:text-base leading-relaxed mb-10">
-              With over 1 year of professional experience, I have mastered the art of <strong>Laravel Development</strong> and <strong>Django Development</strong> for scalable backends, while excelling as a <strong>React Developer</strong> for modern frontends. My expertise extends to <strong>Shopify API Integration</strong>, REST API development, and creating intelligent solutions using Python tools.
+              With over 2 year of professional experience, I have mastered the art of <strong>Laravel Development</strong> and <strong>Django Development</strong> for scalable backends, while excelling as a <strong>React Developer</strong> for modern frontends. My expertise extends to <strong>Shopify API Integration</strong>, REST API development, and creating intelligent solutions using Python tools.
             </p>
 
             {/* Stats Grid */}
@@ -188,7 +188,7 @@ const About: React.FC = () => {
                 <p className="text-[10px] sm:text-xs text-muted uppercase font-bold tracking-widest">Live Projects</p>
               </div>
               <div>
-                <h4 className="text-3xl sm:text-4xl font-bold text-primary mb-1">1+</h4>
+                <h4 className="text-3xl sm:text-4xl font-bold text-primary mb-1">2+</h4>
                 <p className="text-[10px] sm:text-xs text-muted uppercase font-bold tracking-widest">Year Exp.</p>
               </div>
             </div>

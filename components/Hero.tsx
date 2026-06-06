@@ -38,8 +38,8 @@ const Hero: React.FC = () => {
             </button>
 
 
-            <a 
-              href="/Saad-Hasan-CV.pdf" 
+            <a
+              href="/Saad-Hasan CV.pdf"
               download="Saad-Hasan-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -73,14 +73,14 @@ const Hero: React.FC = () => {
             <div className="absolute inset-8 border border-slate-100 rounded-full animate-spin-slow" style={{ animationDirection: 'reverse', animationDuration: '20s' }}></div>
             <div className="absolute inset-0 rounded-[2rem] overflow-hidden border-4 sm:border-8 border-white shadow-hover bg-slate-100 transform rotate-3 hover:rotate-0 transition-transform duration-500">
               <img
-                src="/images/saad (3).jpg"
+                src="/images/Gemini_Generated_Image_5pn7fh5pn7fh5pn7.png"
                 alt="Muhammad Saad Hasan"
                 className="w-full h-full object-cover -rotate-3 hover:rotate-0 transition-transform duration-500"
               />
             </div>
             {/* Experience Badge */}
             <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white p-4 sm:p-6 rounded-2xl shadow-hover border border-slate-50 z-20">
-              <div className="text-primary text-2xl sm:text-3xl font-bold">1+</div>
+              <div className="text-primary text-2xl sm:text-3xl font-bold">2+</div>
               <div className="text-muted text-[10px] sm:text-xs font-bold uppercase tracking-wider">Years of Exp.</div>
             </div>
           </div>
